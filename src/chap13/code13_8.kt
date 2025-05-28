@@ -2,7 +2,7 @@ package chap13
 
 fun main() {
     val x = 5
-    for (i in 800..1000 step 3) {
+    for (i in 9 downTo 1 step 2) {
         println("${x}かける${i}は、${x * i}です。")
     }
 }

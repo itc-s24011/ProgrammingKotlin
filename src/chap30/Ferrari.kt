@@ -1,12 +1,10 @@
 package chap30
 
-import chap28.Car
-
-class Ferrari(color: String) :  Car(color) {
+class Ferrari(color: String) : Car(color) {
     override fun drive(d: Double) {
         distance += d
         println("${color}のフェラーリが走っています！ブウォォォーン！")
         println("おおっ、かっこいい！！！")
-        println("マイレージは${distance}キロになったぜい！")
+        println("マイレージは ${distance}キロになったぜい！")
     }
 }
